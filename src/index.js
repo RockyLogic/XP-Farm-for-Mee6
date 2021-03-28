@@ -1,5 +1,5 @@
 const Discord = require('discord.js-selfbot')
-require('dotenv').config()
+require('dotenv').config({path: __dirname + '/../.env'})
 
 const client = new Discord.Client();
 const token = process.env.TOKEN
